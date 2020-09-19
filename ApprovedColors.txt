@@ -1,0 +1,40 @@
+ORIGINAL
+
+#2C333D //dark blue background
+#909FB5 //light blue caret
+#D2D8E1 //light grey foreground
+#434D5B //darker blue "invisibles" or "selection"
+#232932 //very dark "line highlight"
+
+#808691 //grey - comment, punctuation, definition
+#CED1CF //very light grey - Foreground
+#CAB8A3 //light orange - variable string regex
+#C9A9F9 //light purple - number, constant, tag
+#F0D879 //yellow - Class, support
+#EC9076 //light red - String symbols inherited Class
+#7DCBC4 //azure - Operator Misc
+#61D29D //greenish azure - Function
+#6AB8E5 //blue, Keyword, Storage
+
+#4271AE //Very blue - Diff header
+#EF4D44 //Very red - Diff deletion
+#A6E22E //Very olive green - Diff insertion
+#7DCBC4 //azure - diff range                    //DOUBLE
+
+#EF4D44 //Very red - Error                      //DOUBLE
+#FACB68 //yellow orangish - warning
+
+
+KICAD
+
+#65A2E5 //Blue - copper
+#C26065 //red - copper
+#232932 //Background
+#513c56 //dark purple - component body
+#C4626b //dark pink - component outline
+#C8A339 //dark yellow - edge cut
+
+MODIFIED Carlo
+
+#232932 //Background
+
