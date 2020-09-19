@@ -1,7 +1,7 @@
 ORIGINAL
 
-#2C333D //dark blue background
-#909FB5 //light blue caret
+#2C333D //dark blue background (Ligher background if you ask me)
+#909FB5 //light grey caret
 #D2D8E1 //light grey foreground
 #434D5B //darker blue "invisibles" or "selection"
 #232932 //very dark "line highlight"
