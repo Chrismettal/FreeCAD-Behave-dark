@@ -319,8 +319,8 @@ QDockWidget::float-button:pressed {
 
 /* fix for Python Console (probably there is a smarter way to arrive to it) */
 QDockWidget > QFrame {
-    background-color: #232932;
-    border: 1px solid #505050;
+    background-color: #2C333D;
+    border: 1px solid #2C333D;
 }
 
 
@@ -338,7 +338,7 @@ QProgressBar:horizontal {
 }
 QProgressBar::chunk,
 QProgressBar::chunk:horizontal {
-    background-color: qlineargradient(spread:pad, x1:1, y1:0.545, x2:1, y2:0, stop:0 #65A2E5, stop:1 #65A2E5);
+    background-color: qlineargradient(spread:pad, x1:1, y1:0.545, x2:1, y2:0, stop:0 #61D29D, stop:1 #61D29D);
     border-radius: 3px;
 }
 
@@ -512,7 +512,7 @@ QTabBar {
 
 /* Workaround for QTabBars created from docked QDockWidgets which don't draw the border if not set and reset as follows: */
 QTabBar {
-    border-top: 1px solid #232932;  /* set color for all QTabBars */
+    border-top: 1px solid #9ca1a8;  /* set color for all QTabBars */
 }
 QDockWidget QTabBar {
     border-color: transparent; /* set color for all QTabBars but ones created from QDockWidget */
@@ -548,28 +548,28 @@ QTabBar::tab:right {
 
 QTabBar::tab:selected {
     color: #d2d2d2;
-    background-color: #232932; /* same as tab content background color */
+    background-color: #2C333D; /* same as tab content background color */
     border-color: #232932;
 }
 
 QTabBar::tab:top:selected {
     border-top: 4px solid qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #65A2E5, stop:1 #65A2E5); /* selection color */
-    border-bottom-color: #232932; /* same as tab content background color */
+    border-bottom-color: #2C333D; /* same as tab content background color */
 }
 
 QTabBar::tab:bottom:selected {
     border-bottom: 4px solid qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #65A2E5, stop:1 #65A2E5); /* selection color */
-    border-top-color: #232932; /* same as tab content background color */
+    border-top-color: #2C333D; /* same as tab content background color */
 }
 
 QTabBar::tab:right:selected {
     border-left: 4px solid qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #65A2E5, stop:1 #65A2E5); /* selection color */
-    border-right-color: #232932; /* same as tab content background color */
+    border-right-color: #2C333D; /* same as tab content background color */
 }
 
 QTabBar::tab:left:selected {
     border-right: 4px solid qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #65A2E5, stop:1 #65A2E5); /* selection color */
-    border-left-color: #232932; /* same as tab content background color */
+    border-left-color: #2C333D; /* same as tab content background color */
 }
 
 QTabBar::tab:!selected {
@@ -614,12 +614,12 @@ QDialog#Gui__Dialog__DlgPreferences > QListView::item {
 }
 
 QDialog#Gui__Dialog__DlgPreferences > QListView::item:hover {
-    background-color: #b4b4b4;
+    background-color: #2C333D;
 }
 
 QDialog#Gui__Dialog__DlgPreferences > QListView::item:selected {
-    color: white;
-    background-color: #65A2E5;
+    color: #232932;
+    background-color: #61D29D;
 }
 
 
@@ -754,7 +754,7 @@ Gui--PropertyEditor--PropertyEditor {
 
 /* fix for column items background when a link is present */
 Gui--PropertyEditor--PropertyEditor > QWidget > QFrame:focus {
-    background-color: #cbd8e6; /* same as focused background color */
+    background-color: #2C333D;/*was CBD8E6*/ /* same as focused background color */
 }
 
 /* hack to hide weird redundant information inside the value of a Placement cell */
@@ -783,7 +783,7 @@ Gui--PropertyEditor--PropertyEditor QAbstractSpinBox:disabled {
 /* hack to hide weird redundant information inside cells with links and no editable data (but editable via "..." button) */
 Gui--PropertyEditor--PropertyEditor > QWidget > QWidget > QLabel {
 	color: #65A2E5;
-	background-color: #cbd8e6;
+	background-color: #2C333D;/*was CBD8E6*/
 }
 
 /* hack to disable margin inside Property values to following elements */
@@ -849,7 +849,7 @@ QTreeView > QWidget > QTextEdit:focus,
 QTreeView > QWidget > QTimeEdit:focus,
 QTreeView > QWidget > QDateEdit:focus,
 QTreeView > QWidget > QDateTimeEdit:focus {
-    border-color: #cbd8e6; /* same as focused background color */
+    border-color: #2C333D;/*was CBD8E6*/ /* same as focused background color */
     border-bottom-color: #7cabf9; /* same as focused border color */
 }
 
@@ -1019,10 +1019,10 @@ Text/Python editor (macros, etc...)
 ==================================================================================================*/
 QPlainTextEdit,
 QPlainTextEdit:focus {
-    background-color: #232932;
-    selection-color: white;
-    selection-background-color: #65A2E5;
-    border: 1px solid #505050;
+    background-color: #2C333D;
+    /*selection-color: white;*/
+    selection-background-color: #434D5B;
+    border: 1px solid #2C333D;
     border-radius: 3px;
     margin: 4px;
 }
@@ -1210,7 +1210,7 @@ QDateTimeEdit:focus {
     color: #65A2E5;
     border-color: #7cabf9;
     border-right-color: qlineargradient(spread:pad, x1:1, y1:0.8, x2:1, y2:0, stop:0 #65A2E5, stop:1 #7cabf9); /* same as up/down or drop-down button color */
-    background-color: #cbd8e6;
+    background-color: #2C333D;/*was CBD8E6*/
 }
 
 QComboBox:disabled,
@@ -1583,14 +1583,14 @@ QSint--ActionGroup QFrame[class="content"] QToolButton:pressed {
 Radio button
 ==================================================================================================*/
 QRadioButton::indicator:unchecked{
-    color: #65A2E5;
+    color: #61D29D;
     background-color: rgba(255,255,255,20);
     border: 1px solid #232932;
 }
 
 QRadioButton::indicator:checked {
-    background-color: #65A2E5; /* QCheckBox has the same color */
-    border: 1px solid #65A2E5; /* QCheckBox has the same color */
+    background-color: #61D29D; /* QCheckBox has the same color */
+    border: 1px solid #61D29D; /* QCheckBox has the same color */
     image:url(qss:images_dark-light/radiobutton_light.svg);
 }
 
@@ -1613,9 +1613,9 @@ QRadioButton::indicator:pressed {
 }
 
 QRadioButton::indicator:disabled {
-    color: #588AC2;
+    color: #65A2E5;
     background-color: transparent;
-    border: 1px solid #588AC2;
+    border: 1px solid #65A2E5;
 }
 
 QRadioButton:focus {
@@ -1636,7 +1636,7 @@ QCheckBox:disabled {
 
 QCheckBox::indicator,
 QGroupBox::indicator {
-    color: #65A2E5;
+    color: #61D29D;
     background-color: rgba(255,255,255,20);
     border: 1px solid #232932;
     width: 11px;
@@ -1657,8 +1657,8 @@ QGroupBox::indicator:checked:pressed {
 
 QCheckBox::indicator:checked,
 QGroupBox::indicator:checked {
-    background-color: #65A2E5; /* QRadioButton has the same color */
-    border: 1px solid #65A2E5; /* QRadioButton has the same color */
+    background-color: #61D29D; /* QRadioButton has the same color */
+    border: 1px solid #61D29D; /* QRadioButton has the same color */
     image:url(qss:images_dark-light/checkbox_light.svg);
 }
 
@@ -1675,8 +1675,8 @@ QGroupBox::indicator:disabled {
 
 QCheckBox::indicator:indeterminate,
 QGroupBox::indicator:indeterminate {
-    background-color: #65A2E5;
-    border: 1px solid #65A2E5;
+    background-color: #61D29D;
+    border: 1px solid #61D29D;
     image: url(qss:images_dark-light/checkbox_indeterminate_light.svg);
 }
 
@@ -1872,7 +1872,7 @@ QToolBar > QPushButton:checked:hover {
 }
 
 QToolBar > QPushButton:!checked:hover {
-    color: #cbd8e6;
+    color: #2C333D;/*was CBD8E6*/
     border-color: #505050;
 }
 
@@ -1988,9 +1988,9 @@ QToolBar QToolButton#qt_toolbar_ext_button:on {
 Tables (spreadsheets)
 ==================================================================================================*/
 QTableView {
-    gridline-color: #a0a0a0;
+    gridline-color: #232932;
     selection-color: #1b3774;
-    selection-background-color: #cbd8e6;
+    selection-background-color: #2C333D;
 }
 
 QTableView::item:hover  {
@@ -2003,7 +2003,7 @@ QTableView::item:disabled  {
 
 QTableView::item:selected  {
     color: #1b3774;
-    border-color: #cbd8e6; /* same as focused background color */
+    border-color: #2C333D; /* same as focused background color */
     border-bottom-color: #7cabf9; /* same as focused border color */
 }
 
@@ -2077,8 +2077,8 @@ QTableView > QWidget > QDateTimeEdit:focus {
     color: #1b3774;
     selection-color: white;
     selection-background-color: #65A2E5;
-    border-color: #cbd8e6;
-    background-color: #cbd8e6;
+    border-color: #2C333D;/*was CBD8E6*/
+    background-color: #2C333D;/*was CBD8E6*/
 }
 
 QTableView > QWidget > QComboBox:disabled,
