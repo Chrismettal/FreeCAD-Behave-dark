@@ -11,6 +11,16 @@ Still figuring out how to set the sketcher colors etc.
 
 ![Screenshot](https://raw.githubusercontent.com/Chrismettal/FreeCAD-Behave-dark/master/Screenshot.png)
 
+How to install
+------
+- Close FreeCAD
+- Take the *.qss file and paste it in the following location depending on your OS:
+    - __Windows__ - FreeCADInstallationPath/data/Gui/Stylesheets/
+    - __Linux__ - /home/YourUsername/.FreeCAD/Gui/Stylesheets/
+    - __OSX__ - /Users/YourUsername/Library/Preferences/FreeCAD/Gui/Stylesheets/
+- Open FreeCAD
+- Go to "Edit", "Preferences", "General" and choose your stylesheet in the dropdown menu
+
 License
 ------
 
