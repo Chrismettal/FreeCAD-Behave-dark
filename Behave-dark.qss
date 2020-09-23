@@ -1989,8 +1989,8 @@ Tables (spreadsheets)
 ==================================================================================================*/
 QTableView {
     gridline-color: #232932;
-    selection-color: #1b3774;
-    selection-background-color: #2C333D;
+    selection-color:#D2D8E1;   /*Text in focused cell*/
+    selection-background-color: #232932;
 }
 
 QTableView::item:hover  {
@@ -2002,7 +2002,7 @@ QTableView::item:disabled  {
 }
 
 QTableView::item:selected  {
-    color: #1b3774;
+    color: #D2D8E1;
     border-color: #2C333D; /* same as focused background color */
     border-bottom-color: #7cabf9; /* same as focused border color */
 }
@@ -2074,7 +2074,7 @@ QTableView > QWidget > QTextEdit:focus,
 QTableView > QWidget > QTimeEdit:focus,
 QTableView > QWidget > QDateEdit:focus,
 QTableView > QWidget > QDateTimeEdit:focus {
-    color: #1b3774;
+    color: #D2D8E1;
     selection-color: white;
     selection-background-color: #65A2E5;
     border-color: #2C333D;/*was CBD8E6*/
