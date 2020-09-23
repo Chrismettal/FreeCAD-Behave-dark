@@ -21,6 +21,8 @@ How to install
 - Open FreeCAD
 - Go to "Edit", "Preferences", "General" and choose your stylesheet in the dropdown menu
 
+You can also create a hardlink from your cloned repo location to that path so you can update the stylesheet with a git pull.
+
 License
 ------
 
