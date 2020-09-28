@@ -9,6 +9,7 @@ It might work with other software that uses Qt styling.
 LICENSE
 ============================================================================================================
 Copyright (c) 2019 Pablo Gil Fernández
+Modified 2020 Chrismettal
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
@@ -25,20 +26,21 @@ INSTALLATION
 CUSTOMIZATION
 ============================================================================================================
 If you would like to change the overall look/style of the theme, just find and replace following colors in the whole file:
+
     BACKGROUND (darker to lighter)
-        #65A2E5 = was black, changed to greenish //Done
+        #65A2E5 
         #1e1e1e
         #3c3c3c
         #434D5B
         #232932 = top menu background etc
         #646464
-        #232932 = main background color     //Done
+        #232932 = main background color     
         #787878
         #8c8c8c
         #a0a0a0
         #b4b4b4
         #bebebe
-        #232932 = console color             //Done
+        #232932 = console color
         #d2d2d2
         #588AC1 = top menu item
         #588AC2 
