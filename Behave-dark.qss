@@ -27,6 +27,8 @@ CUSTOMIZATION
 ============================================================================================================
 If you would like to change the overall look/style of the theme, just find and replace following colors in the whole file:
 
+! If you find not matching or unreadable sections in FreeCAD please tell Chrismettal or open up a PR yourself !
+
     BACKGROUND (darker to lighter)
         #65A2E5 
         #1e1e1e
@@ -55,6 +57,34 @@ If you would like to change the overall look/style of the theme, just find and r
         #7cabf9
         #adc5ed
         #cbd8e6
+
+
+BEHAVE DARK APPROVED COLORS
+============================================================================================================
+
+#2C333D //dark blue background (Ligher background if you ask me)
+#909FB5 //light grey caret
+#D2D8E1 //light grey foreground
+#434D5B //darker blue "invisibles" or "selection"
+#232932 //very dark "line highlight"
+
+#808691 //grey - comment, punctuation, definition
+#CED1CF //very light grey - Foreground
+#CAB8A3 //light orange - variable string regex
+#C9A9F9 //light purple - number, constant, tag
+#F0D879 //yellow - Class, support
+#EC9076 //light red - String symbols inherited Class
+#7DCBC4 //azure - Operator Misc
+#61D29D //greenish azure - Function
+#6AB8E5 //blue, Keyword, Storage
+
+#4271AE //Very blue - Diff header
+#EF4D44 //Very red - Diff deletion
+#A6E22E //Very olive green - Diff insertion
+#7DCBC4 //azure - diff range
+
+#EF4D44 //Very red - Error
+#FACB68 //yellow orangish - warning
 
 
 KNOWN BUGS and TO DO
