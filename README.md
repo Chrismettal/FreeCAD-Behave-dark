@@ -11,17 +11,19 @@ Still figuring out how to set the sketcher colors etc.
 
 ![Screenshot](https://raw.githubusercontent.com/Chrismettal/FreeCAD-Behave-dark/master/Screenshot.png)
 
-How to install
-------
-- Close FreeCAD
-- Take the *.qss file and paste it in the following location depending on your OS:
-    - __Windows__ - FreeCADInstallationPath/data/Gui/Stylesheets/
-    - __Linux__ - /home/YourUsername/.FreeCAD/Gui/Stylesheets/
-    - __OSX__ - /Users/YourUsername/Library/Preferences/FreeCAD/Gui/Stylesheets/
-- Open FreeCAD
-- Go to "Edit", "Preferences", "General" and choose your stylesheet in the dropdown menu
+This has been merged into the FreeCAD core. Starting from commit [f686ed](https://github.com/FreeCAD/FreeCAD/commit/f686ed16e58f669026462445691badc59f5ca23b) you should already have it. Found bugs in this stylesheet will still be developed here for now.
 
-You can also create a hardlink from your cloned repo location to that path so you can update the stylesheet with a git pull.
+~~How to install~~
+------
+- ~~Close FreeCAD~~
+- ~~Take the *.qss file and paste it in the following location depending on your OS:~~
+    - ~~__Windows__ - FreeCADInstallationPath/data/Gui/Stylesheets/~~
+    - ~~__Linux__ - /home/YourUsername/.FreeCAD/Gui/Stylesheets/~~
+    - ~~__OSX__ - /Users/YourUsername/Library/Preferences/FreeCAD/Gui/Stylesheets/~~
+- ~~Open FreeCAD~~
+- ~~Go to "Edit", "Preferences", "General" and choose your stylesheet in the dropdown menu~~
+
+~~You can also create a hardlink from your cloned repo location to that path so you can update the stylesheet with a git pull.~~
 
 License
 ------
