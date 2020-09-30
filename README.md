@@ -11,9 +11,9 @@ Still figuring out how to set the sketcher colors etc.
 
 ![Screenshot](https://raw.githubusercontent.com/Chrismettal/FreeCAD-Behave-dark/master/Screenshot.png)
 
-This has been merged into the FreeCAD core. Starting from commit [f686ed](https://github.com/FreeCAD/FreeCAD/commit/f686ed16e58f669026462445691badc59f5ca23b) you should already have it. Found bugs in this stylesheet will still be developed here for now.
 
-~~How to install~~
+
+How to install
 ------
 - ~~Close FreeCAD~~
 - ~~Take the *.qss file and paste it in the following location depending on your OS:~~
@@ -24,6 +24,8 @@ This has been merged into the FreeCAD core. Starting from commit [f686ed](https:
 - ~~Go to "Edit", "Preferences", "General" and choose your stylesheet in the dropdown menu~~
 
 ~~You can also create a hardlink from your cloned repo location to that path so you can update the stylesheet with a git pull.~~
+
+__This has been merged into the FreeCAD core. Starting from commit [f686ed](https://github.com/FreeCAD/FreeCAD/commit/f686ed16e58f669026462445691badc59f5ca23b) you should already have it. Found bugs in this stylesheet will still be developed here for now.__
 
 License
 ------
