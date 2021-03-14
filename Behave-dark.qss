@@ -363,7 +363,7 @@ QDockWidget::float-button:pressed {
 
 /* fix for Python Console (probably there is a smarter way to arrive to it) */
 QDockWidget > QFrame {
-    background-color: #48515d;
+    background-color: #2C333D;
     border: 1px solid #2C333D;
 }
 
@@ -1063,7 +1063,7 @@ Text/Python editor (macros, etc...)
 ==================================================================================================*/
 QPlainTextEdit,
 QPlainTextEdit:focus {
-    background-color: #48515d;
+    background-color: #2C333D;
     /*selection-color: white;*/
     selection-background-color: #434D5B;
     border: 1px solid #2C333D;
@@ -1238,8 +1238,8 @@ QDateTimeEdit {
 /* when QTextEdit are no editable (like Report view)*/
 QTextEdit:!editable,
 QTextEdit:!editable:focus {
-    background-color: #48515d;
-    border: 1px solid #2C333D;
+    background-color: #232932;
+    border: 1px solid #434D5B;
 }
 
 QComboBox:focus,
