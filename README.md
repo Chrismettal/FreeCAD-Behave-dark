@@ -1,15 +1,17 @@
 # FreeCAD-Behave-dark
 Behave dark theme for FreeCAD
 
+![Screenshot](Screenshot.png?raw=true)
+
 Customized from Pablogil's awesome stylesheets [here](https://github.com/pgilfernandez/FreeCAD_stylesheets).
 
 Full port of the [Behave theme](https://github.com/fnky/behave-theme) by Christian Petersen. 
 
-For full effect set your background color to #2C333D. Find all the fitting "possible" colors in the "ApprovedColors.txt" file. These are mostly pulled straight out of the original [Behave theme](https://github.com/fnky/behave-theme)
+For full effect you can set non-stylesheet-colors inside the preferences tab itself. My configuration for this looks like this:
 
-Still figuring out how to set the sketcher colors etc. 
+![Colors](Colors.png?raw=true)
 
-![Screenshot](/Screenshot.png?raw=true)
+This will set your background and selection colors to approved colors as well as make the selected item in the treeview also fit the rest.
 
 
 How to install
