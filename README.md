@@ -7,11 +7,7 @@ Customized from Pablogil's awesome stylesheets [here](https://github.com/pgilfer
 
 Full port of the [Behave theme](https://github.com/fnky/behave-theme) by Christian Petersen. 
 
-For full effect you can set non-stylesheet-colors inside the preferences tab itself. My configuration for this looks like this:
-
-![Colors](Colors.png?raw=true)
-
-This will set your background and selection colors to approved colors as well as make the selected item in the treeview also fit the rest.
+For full effect, don't use this stylesheet by itself, but install the full [Preference Pack](https://github.com/Chrismettal/FreeCAD-Behave-Dark-Preference-Pack) from the integrated addon manager, starting with FreeCAD 0.20!
 
 
 How to install
@@ -26,7 +22,7 @@ How to install
 
 ~~You can also create a hardlink from your cloned repo location to that path so you can update the stylesheet with a git pull.~~
 
-__This has been merged into the FreeCAD core. Starting from commit [f686ed](https://github.com/FreeCAD/FreeCAD/commit/f686ed16e58f669026462445691badc59f5ca23b) you should already have it. Found bugs in this stylesheet will still be developed here for now.__
+__This has been merged into the FreeCAD core. Starting from commit [f686ed](https://github.com/FreeCAD/FreeCAD/commit/f686ed16e58f669026462445691badc59f5ca23b) you should already have it. Stylesheet will still be developed here for now though.__
 
 How to use a stylesheet
 ------
