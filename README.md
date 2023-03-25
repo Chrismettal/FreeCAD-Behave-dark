@@ -1,4 +1,9 @@
+# Archive notice:
+
+This repo is being archived as the stylesheet itself is fully integrated into FreeCADs source and is actively developed there. The preference pack around it is developed [here](https://github.com/Chrismettal/FreeCAD-Behave-Dark-Preference-Pack).
+
 # FreeCAD-Behave-dark
+
 Behave dark theme for FreeCAD
 
 ![Screenshot](Screenshot.png?raw=true)
